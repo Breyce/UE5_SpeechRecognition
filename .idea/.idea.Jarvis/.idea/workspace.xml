@@ -11,7 +11,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbe30a51-d430-4a99-8cdf-3249dc7d47e2" name="Changes" comment="" />
+    <list default="true" id="cbe30a51-d430-4a99-8cdf-3249dc7d47e2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jarvis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jarvis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/SherpaOnnxSpeech/Source/SherpaOnnxSpeech/Private/SherpaOnnxSpeech.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/SherpaOnnxSpeech/Source/SherpaOnnxSpeech/Private/SherpaOnnxSpeech.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/SherpaOnnxSpeech/ThirdParty/include/c-api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/SherpaOnnxSpeech/ThirdParty/include/cxx-api.h" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Plugins/SherpaOnnxSpeech/ThirdParty/include/cxx-api.h" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -457,7 +465,8 @@
       <updated>1754384353848</updated>
       <workItem from="1754384356426" duration="579000" />
       <workItem from="1754384956154" duration="12000" />
-      <workItem from="1754385039896" duration="636000" />
+      <workItem from="1754385039896" duration="948000" />
+      <workItem from="1754387529369" duration="170000" />
     </task>
     <servers />
   </component>

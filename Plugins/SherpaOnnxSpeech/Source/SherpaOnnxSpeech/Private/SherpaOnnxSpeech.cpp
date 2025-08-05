@@ -3,13 +3,14 @@
 #include "SherpaOnnxSpeech.h"
 
 #include "Interfaces/IPluginManager.h"
+#include "sherpa-onnx/c-api/cxx-api.h"
 
 #define LOCTEXT_NAMESPACE "FSherpaOnnxSpeechModule"
 
 void FSherpaOnnxSpeechModule::StartupModule()
 {
 	// 动态加载 DLL（可选，静态链接 .lib 时可不写）
-	FString BaseDir = IPluginManager::Get().FindPlugin(TEXT("YourPlugin"))->GetBaseDir();
+	FString BaseDir = IPluginManager::Get().FindPlugin(TEXT("SherpaOnnxSpeech"))->GetBaseDir();
 	FString DllPath = FPaths::Combine(*BaseDir, TEXT("ThirdParty/bin/sherpa-onnx-cxx-api.dll"));
 	void* DllHandle = FPlatformProcess::GetDllHandle(*DllPath);
 
