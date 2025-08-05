@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SherpaOnnxSpeech",
+	"Description": "ASR & TTS based on sherpa-onnx",
+	"Category": "Other",
+	"CreatedBy": "Breyce",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SherpaOnnxSpeech",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
